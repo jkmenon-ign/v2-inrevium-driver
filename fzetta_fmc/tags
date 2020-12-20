@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEV_ID_REG	fzetta_fmc_ctlr.h	12;"	d
+DUMMY	fzetta_fmc_spi.h	/^	DUMMY     = 0xFF$/;"	e	enum:__anon4
+FZETTA_FMC_CTLR_H_	fzetta_fmc_ctlr.h	2;"	d
+FZETTA_FMC_GPIO_H_	fzetta_fmc_gpio.h	2;"	d
+FZETTA_FMC_IIC_H_	fzetta_fmc_iic.h	2;"	d
+FZETTA_FMC_INIT_TABLE_H_	fzetta_fmc_init_table.h	2;"	d
+FZETTA_FMC_SPI_H_	fzetta_fmc_spi.h	2;"	d
+IIC_Dev	fzetta_fmc_init_table.h	/^	IIC_Dev = 0,$/;"	e	enum:__anon1
+REGLIST_SIZE	fzetta_fmc_init_table.h	20;"	d
+SPI_DRVR	fzetta_fmc_spi.h	/^	SPI_DRVR  = 0x02,$/;"	e	enum:__anon4
+SPI_DUMMY	fzetta_fmc_spi.h	19;"	d
+SPI_Dev	fzetta_fmc_init_table.h	/^	SPI_Dev$/;"	e	enum:__anon1
+SPI_RCLKR	fzetta_fmc_spi.h	/^	SPI_RCLKR = 0x01,$/;"	e	enum:__anon4
+SPI_RCVR	fzetta_fmc_spi.h	/^	SPI_RCVR  = 0x04,$/;"	e	enum:__anon4
+SPI_RD	fzetta_fmc_spi.h	18;"	d
+SPI_WR	fzetta_fmc_spi.h	17;"	d
+XBAR_IIC_WRITE_ADDR	fzetta_fmc_iic.h	10;"	d
+channel	fzetta_fmc_init_table.h	/^	u8 				channel;$/;"	m	struct:__anon2
+dev	fzetta_fmc_init_table.h	/^	fzetta_dev_type dev;$/;"	m	struct:__anon2
+fmc_init_done_flag	fzetta_fmc_gpio.c	/^unsigned char fmc_init_done_flag = 0;$/;"	v
+fzetta_dev_type	fzetta_fmc_init_table.h	/^}fzetta_dev_type;$/;"	t	typeref:enum:__anon1
+fzetta_fmc_GpioOutput	fzetta_fmc_gpio.c	/^XGpio fzetta_fmc_GpioOutput; \/* The driver instance for GPIO Device configured as O\/P *\/$/;"	v
+fzetta_fmc_GpioOutput	fzetta_fmc_gpio.h	/^XGpio fzetta_fmc_GpioOutput; \/* The driver instance for GPIO Device configured as O\/P *\/$/;"	v
+fzetta_fmc_Iic	fzetta_fmc_iic.h	/^XIic fzetta_fmc_Iic; \/* The driver instance for IIC Device *\/$/;"	v
+fzetta_fmc_Iic_ConfigPtr	fzetta_fmc_iic.h	/^XIic_Config *fzetta_fmc_Iic_ConfigPtr;	\/* Pointer to configuration data *\/$/;"	v
+fzetta_fmc_Spi	fzetta_fmc_spi.h	/^XSpi fzetta_fmc_Spi; \/* The instance of the SPI device *\/$/;"	v
+fzetta_fmc_Spi_ConfigPtr	fzetta_fmc_spi.h	/^XSpi_Config *fzetta_fmc_Spi_ConfigPtr;	\/* Pointer to Configuration data *\/$/;"	v
+fzetta_fmc_dev_errata_init	fzetta_fmc_ctlr.c	/^int fzetta_fmc_dev_errata_init(){$/;"	f
+fzetta_fmc_dev_init	fzetta_fmc_ctlr.c	/^int fzetta_fmc_dev_init(fzetta_fmc_reg *fzetta_fmc_reg_init){$/;"	f
+fzetta_fmc_gpio_init	fzetta_fmc_gpio.c	/^int fzetta_fmc_gpio_init(u8 Dev_ID){$/;"	f
+fzetta_fmc_iic_init	fzetta_fmc_iic.c	/^int fzetta_fmc_iic_init(u8 Dev_ID) {$/;"	f
+fzetta_fmc_iic_xbar_register_read	fzetta_fmc_iic.c	/^u8 fzetta_fmc_iic_xbar_register_read(u8 RegAddr){$/;"	f
+fzetta_fmc_iic_xbar_register_write	fzetta_fmc_iic.c	/^int fzetta_fmc_iic_xbar_register_write(u8 RegAddr, u8 RegData)$/;"	f
+fzetta_fmc_init	fzetta_fmc_ctlr.c	/^int fzetta_fmc_init(){$/;"	f
+fzetta_fmc_init_done	fzetta_fmc_gpio.c	/^void fzetta_fmc_init_done() {$/;"	f
+fzetta_fmc_ip_init	fzetta_fmc_ctlr.c	/^int fzetta_fmc_ip_init(){$/;"	f
+fzetta_fmc_reg	fzetta_fmc_init_table.h	/^}fzetta_fmc_reg;$/;"	t	typeref:struct:__anon3
+fzetta_fmc_register_read	fzetta_fmc_ctlr.c	/^u8 fzetta_fmc_register_read(fzetta_dev_type Dev, u8 Channel, spi_slave_sel Slave_Sel, u8 RegAddr){$/;"	f
+fzetta_fmc_register_write	fzetta_fmc_ctlr.c	/^int fzetta_fmc_register_write(fzetta_dev_type *Dev, u8 *Channel, spi_slave_sel *Slave_Sel, u8 *RegAddr, u8 *RegData){$/;"	f
+fzetta_fmc_reglist	fzetta_fmc_init_table.h	/^}fzetta_fmc_reglist;$/;"	t	typeref:struct:__anon2
+fzetta_fmc_spi_channel_select	fzetta_fmc_gpio.c	/^int fzetta_fmc_spi_channel_select(u8 Channel) {$/;"	f
+fzetta_fmc_spi_devices_register_read	fzetta_fmc_spi.c	/^u8 fzetta_fmc_spi_devices_register_read(u32 Slave_Sel, u8 RegAddr)$/;"	f
+fzetta_fmc_spi_devices_register_write	fzetta_fmc_spi.c	/^int fzetta_fmc_spi_devices_register_write(spi_slave_sel Slave_Sel, u8 RegAddr, u8 RegData)$/;"	f
+fzetta_fmc_spi_init	fzetta_fmc_spi.c	/^int fzetta_fmc_spi_init(u8 Dev_ID) {$/;"	f
+fzetta_fmc_stop	fzetta_fmc_ctlr.c	/^int fzetta_fmc_stop(){$/;"	f
+fzetta_fmc_table	fzetta_fmc_init_table.h	/^fzetta_fmc_reg fzetta_fmc_table;$/;"	v
+fzetta_fmc_table_init	fzetta_fmc_init_table.c	/^void fzetta_fmc_table_init(){$/;"	f
+gpio_dev_id	fzetta_fmc_init_table.h	/^	u8 gpio_dev_id;$/;"	m	struct:__anon3
+iic_dev_id	fzetta_fmc_init_table.h	/^	u8 iic_dev_id;$/;"	m	struct:__anon3
+rclkr_errata_id_80	fzetta_fmc_init_table.h	/^fzetta_fmc_reglist rclkr_errata_id_80[2];$/;"	v
+rclkr_errata_id_81	fzetta_fmc_init_table.h	/^fzetta_fmc_reglist rclkr_errata_id_81[5];$/;"	v
+rclkr_errata_id_82	fzetta_fmc_init_table.h	/^fzetta_fmc_reglist rclkr_errata_id_82[3];$/;"	v
+rcvr_errata_id_01	fzetta_fmc_init_table.h	/^fzetta_fmc_reglist rcvr_errata_id_01[5];$/;"	v
+regaddr	fzetta_fmc_init_table.h	/^	u8 				regaddr;$/;"	m	struct:__anon2
+regdata	fzetta_fmc_init_table.h	/^	u8 				regdata;$/;"	m	struct:__anon2
+reglist	fzetta_fmc_init_table.h	/^	fzetta_fmc_reglist reglist[REGLIST_SIZE];$/;"	m	struct:__anon3
+slave_sel	fzetta_fmc_init_table.h	/^	spi_slave_sel 	slave_sel;$/;"	m	struct:__anon2
+spi_dev_id	fzetta_fmc_init_table.h	/^	u8 spi_dev_id;$/;"	m	struct:__anon3
+spi_slave_sel	fzetta_fmc_spi.h	/^}spi_slave_sel;$/;"	t	typeref:enum:__anon4

@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+#include "common.h"
+
+
+
+void Xil_Out32(UINTPTR Addr, u32 Value) {
+	printf("%s \n",__func__);
+	printf("%lx \n",Addr);
+ 	volatile u64 *LocalAddr = (volatile u64 *)&Addr;
+	printf("LocalAddr: %lx \n", *LocalAddr);
+	*LocalAddr = Value;
+	printf("reg write done \n");
+}
+
+u64 Xil_In32(UINTPTR Addr)
+{
+	volatile u64 *LocalAddr = (volatile u64 *)&Addr;
+//	printf("%s: LocalAddr Read: %lx \n",__func__, *LocalAddr);
+	return *LocalAddr;
+}
